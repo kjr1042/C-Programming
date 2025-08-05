@@ -19,7 +19,7 @@ public class HelloWorld
     }
     public static void Main(string[] args)
     {
-        string input = Console.ReadLine().ToLower();
+        string input = Console.ReadLine().ToLower(); /*char ch = Console.ReadLine()[0];*/
         
         int t= Convert.ToInt32(Console.ReadLine());
         
@@ -35,4 +35,5 @@ public class HelloWorld
         
         
     }
+
 }
